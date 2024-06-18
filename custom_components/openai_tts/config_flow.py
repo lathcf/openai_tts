@@ -45,7 +45,7 @@ class OpenAITTSConfigFlow(ConfigFlow, domain=DOMAIN):
                 "custom_value": False
             }
         }),
-        vol.Required(CONF_VOICE, default="shimmer"): selector({
+        vol.Required(CONF_VOICE, default="jaina"): selector({
             "select": {
                 "options": VOICES,
                 "mode": "dropdown",
