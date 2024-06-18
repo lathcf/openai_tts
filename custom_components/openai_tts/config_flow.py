@@ -37,7 +37,7 @@ class OpenAITTSConfigFlow(ConfigFlow, domain=DOMAIN):
     data_schema = vol.Schema({
         vol.Required(CONF_API_KEY): str,
         vol.Optional(CONF_SPEED, default=1.0): vol.Coerce(float),
-        vol.Required(CONF_MODEL, default="tts-1"): selector({
+        vol.Required(CONF_MODEL, default="tts-1-hd"): selector({
             "select": {
                 "options": MODELS,
                 "mode": "dropdown",
