@@ -6,5 +6,5 @@ CONF_MODEL = 'model'
 CONF_VOICE = 'voice'
 CONF_SPEED = 'speed'
 MODELS = ["tts-1", "tts-1-hd"]
-VOICES = ["alloy", "echo", "fable", "onyx", "nova", "shimmer"]
-URL = "https://api.openai.com/v1/audio/speech"
+VOICES = ["alloy", "echo", "fable", "onyx", "nova", "shimmer", "jaina"]
+URL = "http://192.168.1.52:8000/v1/audio/speech"
